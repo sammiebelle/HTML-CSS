@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+            <style>
+                .button{
+                    background-color: green;
+                    width: 150px;
+                    height: 60px;
+                }
+                @media (min-width: 576px){
+                    .button{
+                        border-radius: 15px;
+                    }
+                }
+                @media (min-width: 768px) {
+                    .button{
+                        color: white;
+                    }
+                }
+                @media (min-width: 992px) {
+                    .button{
+                        display: none;
+                    }
+                }
+            </style>
+        </head>
+        <body>
+            <button type="button" class="button">Enviar</button>
+        </body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            nav{
+                grid-area: menu;
+            }
+            main{
+                grid-area: seccion-principal;
+            }
+            footer{
+                grid-area: pie-de-pagina;
+            }
+            div{
+                display: grid;
+                grid-template-rows: 4fr 4fr 4fr;
+                grid-template-areas: 
+                "menu"
+                "seccion-principal"
+                "pie-de-pagina";
+            }
+            img{
+                width: 230px;
+                height: 200px;
+            }
+        </style>
+    </head> 
+    <body>
+        <nav>
+            <img src="assets/imgs/land (1).jpg" class="img">
+            <img src="assets/imgs/land (2).jpg" class="">
+        </nav>
+        <main>
+            <img src="assets/imgs/land (3).jpg">
+        </main>
+        <footer>
+            <img src="assets/imgs/land (4).jpg">
+        </footer>
+    </body>
+</html>

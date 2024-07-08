@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hero{
+    display: flex;
+    background-image: url(../imgs/estrellas.jpg);
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}

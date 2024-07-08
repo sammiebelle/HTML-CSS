@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            .grid{
+                display: grid;
+                grid-template-columns: 1fr;
+            }
+            @media (min-width: 576px) {
+                .grid{
+                    grid-template-columns: 1fr 1fr;
+                }
+            }
+            @media (min-width: 768px) {
+                .grid{
+                    grid-template-columns: 1fr 1fr 1fr;
+                }
+            }
+            @media (min-width: 992px) {
+                .grid{
+                    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="grid">
+            <img src="https://placedog.net/200/200">
+            <img src="https://placedog.net/200/200">
+            <img src="https://placedog.net/200/200">
+            <img src="https://placedog.net/200/200">
+            <img src="https://placedog.net/200/200">
+            <img src="https://placedog.net/200/200">
+        </div>
+    </body>
+</html>

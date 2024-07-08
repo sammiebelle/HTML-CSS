@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+                .grid-container{
+                    display: flex;
+                    background-color: green;
+                    flex-direction: column;
+                    justify-content: space-between;
+                }
+                .img{
+                    border-radius: 50%;
+                    width: 90px;
+                    height: 90px;
+                }
+                .info{
+                    display: flex;
+                    align-content: center;
+                    flex-direction: column;
+                }
+                .info h2{
+                    color: greenyellow;
+                    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                }
+                .info p{
+                    color: white;
+                }
+                .button{
+                    width: 170px;
+                    height: 30px;
+                    background-color: antiquewhite;
+                    justify-content: center;
+
+                }
+                .btn{
+                    display: flex;
+
+                }
+            
+            @media (min-width: 992px) {
+                .grid-container{
+                    display: flex;
+                    justify-content: space-between;
+                    background-color: green;
+                    flex-direction: row;
+                }
+                .info{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                }
+                .button{
+                    width: 170px;
+                    height: 30px;
+                    background-color: antiquewhite;
+                    justify-content: center;
+
+                }
+                .btn{
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="grid-container">
+            <div class="info">
+                <img src="assets/imgs/ppl (2).jpg" class="img">
+                <div class="text">
+                    <h2>Evan You</h2>
+                    <p><a href="">Ver mi perfil</a></p>
+                </div>
+                
+            </div>
+            <div class="btn">
+                <button type="button" class="button">Cerrar Sesion</button>
+            </div>
+    </body>
+</html>

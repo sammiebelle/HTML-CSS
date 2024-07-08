@@ -1,0 +1,108 @@
+header{
+    grid-area: header;
+    background-color: rgb(206, 153, 115);
+    text-align: center;
+    align-content: center;
+}
+
+menu{
+    grid-area: menu;
+    background-color: rgb(245, 227, 204);
+    padding-left: 0px;
+    margin: 0px;
+}
+
+main{
+    grid-area: main;
+    background-color: rgb(253, 243, 230);
+    margin: 0px;
+    padding-left: 0px;
+}
+
+footer{
+    grid-area: footer;
+    background-color: antiquewhite;
+    height: 50px;
+    align-content: center;
+    text-align: center;
+    font-family: "Homemade Apple", cursive;
+}
+
+h1, h2{
+    font-family: "Homemade Apple", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "menu main"
+    "footer footer";
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+    display: flex;
+    margin: 0px;
+    padding-left: 0px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+li{
+    display: flex;
+    list-style: none;
+    font-family: "Neucha", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+
+a:visited{
+    color: black;
+}
+
+.grid-container-products{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-evenly;
+}
+
+h3{
+    font-family: "Pangolin", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p{
+    font-family: "Neucha", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.imgs{
+    width: 300px;
+    height: 290px;
+}
+
+.grid-item{
+    padding: 5px;
+    text-align: center;
+}
+
+.btn{
+    font-family: "Neucha", cursive;
+    font-size: 20px;
+    width: 150px;
+    height: 30px;
+    background-color: rgb(224, 241, 205);
+    border: none;
+}

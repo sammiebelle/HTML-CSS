@@ -1,0 +1,87 @@
+header{
+    background-color: black;
+}
+
+.header h1{
+    margin: 0px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Dancing Script';
+    font-size: 60px;
+}
+
+.h-img{
+    height: 727px;
+}
+
+.info{
+    background-color: black;
+    height: 348px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.info p{
+    color: white;
+    font-family: 'Imbue';
+    font-size: 20px;
+    width: 450px;
+}
+
+.imgs{
+    height: 237px;
+    width: 399px;
+}
+
+.caract{
+    height: 348px;
+    background-color: #1E1A13;
+    color:white;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.title h2{
+    margin: 0px;
+    background-color: #1E1A13;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    align-items: center;
+}
+
+.ca-info{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.fotos{
+    height: 348px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer{
+    height: 102px;
+    background-color: #1E1A13;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer h4{
+    margin: 0px;
+}
